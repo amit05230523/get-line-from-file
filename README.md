@@ -5,7 +5,7 @@ function is much simpler to use than C standard library's getline().
 
 Function get_line_from_file() returns a line from the current offset of the
 file. The memory for the line is allocated by this function and it is the user's
-responsibility to free the line.
+responsibility to free this memory.
 
 An example of using this function is listed below:
 
